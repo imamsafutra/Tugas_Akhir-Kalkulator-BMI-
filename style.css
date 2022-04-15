@@ -30,7 +30,7 @@
   }
   
   section {
-    background-image: url("./img/BACKGROUN.jpg");
+    background-image: url("BACKGROUN.jpg");
     padding-bottom: 50px;
     display: flex;
     align-items: center;
