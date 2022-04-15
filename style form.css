@@ -4,7 +4,6 @@
   }
   
   header {
-    background-color: #337ab7;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,21 +13,15 @@
   }
   
   header img {
-      height: 40px;
+    height: 40px;
   }
   
   header nav a {
-    color: rgb(230, 228, 238);
+    color: rgb(53, 12, 236);
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-  }
-  header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
   }
   
   section {
@@ -39,47 +32,38 @@
     flex-direction: column;
     min-height: calc(100vh - 100px);
   }
-  section h4 {
+  section h1 {
     padding-top: 10px;
     padding-bottom: 10px;
-   
   }
   
   section #article-list {
     width: 50%;
-    background-color: aquamarine;
-    align-items: center;
+    background-color: rgb(255, 255, 255);
+   
   }
   
-  section #article-list article {
-    padding: 10px;
-    border-bottom: 7px solid rgb(211, 241, 89);
-    align-items: center;
-    padding-left: 10px;
-  }
-  h1{
-    color :brown;
-    padding-top: 15px;
-    padding-bottom: 14px;
+  section #article-list article  {
+    padding: 50px;
+    border-bottom: 1px solid rgb(200, 200, 200);
   }
   
-  
-  section #article-list article a,
-  section #article-list article h3 {
+ 
+  section #article-list article h3, a, h5 {
     color: rgb(53, 12, 236);
+    text-align: center;
     text-decoration: none;
-    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    
   }
-  .btn-primary {
-    color: rgba(224, 248, 6, 0.843);
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
+  
   footer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    color: rgb(8, 7, 7);
-    background-color: rgb(68, 247, 18);
+    color: white;
+    background-color: black;
   }
