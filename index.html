@@ -28,7 +28,7 @@
 		<div id="article-list">		            
 				<article>
 					<a href="">
-						<h3>Indeks Masa Tubuh (IMT)</h3>
+						<h2>Indeks Masa Tubuh (IMT)</h2>
 					  </a>
 					  <p>
 						  		Adalah angka yang menjadi penilaian standar untuk 
@@ -37,10 +37,10 @@
 					  </p>
 				</article>
 
-				<article>
-					<h5>
+				<form>
+					<h3>
 						Untuk menghitung BMI Anda, silakan jawab dua pertanyaan berikut:
-					</h5>
+					</h3>
 						<h4><label>Berat Badan (kg):</label></h4>
 						<div class="row">
 						<input type="text" placeholder="Masukan berat badan" id="weight">
@@ -49,19 +49,17 @@
 						<input type="text"placeholder="Masukan tinggi badan" id="height">
 						<h4 class="row"></h4>
 						<button class="btn btn-primary" type="button" onClick="calculateBmi()">HITUNG</button>
-											
-				</article>
-						
-				<article>
-					<h4><label>BMI:</label></h4>
+							
+						<h4><label>BMI:</label></h4>
+					
 						<div class="row">
 						<input class="form-control" type="text" id="bmi" size="28" readonly >
 						<h4><label>Hasil:</label></h4>
 						<div clas="row">
 						<input class="form-control" type="text" id="result" size="28" readonly>
 						<h4 class="row"></h4>
-						<button class="btn btn-primary" type="reset">  Reset</button>
-				</article>	
+						<button class="btn btn-primary" type="reset">Reset</button>
+						</form>	
 			</section>
 		
 		</form>

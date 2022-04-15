@@ -62,13 +62,26 @@
     padding-top: 15px;
     padding-bottom: 14px;
   }
+  h3{
+    color :brown;
+    align-items: center;
+    padding-bottom: 20px;
+  }
   
   
-  section #article-list article a,
-  section #article-list article h3 {
+  section #article-list article h2 {
     color: rgb(53, 12, 236);
     text-decoration: none;
     margin-bottom: 20px;
+    align-items: center;
+    
+  }
+
+  form {
+    padding: 10px;
+    border-bottom: 8px solid rgb(241, 137, 89);
+    align-items: center;
+    padding-left: 30px;
   }
   .btn-primary {
     color: rgba(224, 248, 6, 0.843);

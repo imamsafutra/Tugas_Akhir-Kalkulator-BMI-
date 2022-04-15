@@ -39,13 +39,14 @@
   
   section #article-list {
     width: 50%;
-    background-color: rgb(255, 255, 255);
-   
+   background-image:  url("tema.png");
+   border: 20px solid rgb(189, 58, 58);
+      
   }
   
   section #article-list article  {
     padding: 50px;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(189, 58, 58);
   }
   
  
